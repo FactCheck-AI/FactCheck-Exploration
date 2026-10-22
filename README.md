@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+# FactCheck web platform (front end)
+
+> **Research use only. Not a medical device.**
+> This software was developed in the HEREDITARY project as a research prototype. It has not been assessed or certified under the EU Medical Device Regulation (EU) 2017/745. It must not be used to diagnose, treat, monitor or make any other decision about individual patients.
+
+Front end of the FactCheck web platform, deployed at https://factcheck.dei.unipd.it. The back end is in [FactCheck-Exploration-Backend](https://github.com/FactCheck-AI/FactCheck-Exploration-Backend).
+
+## Development
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -44,3 +53,27 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Acknowledgments
+
+The work was supported by the HEREDITARY project, as part of the EU Horizon Europe program under Grant Agreement 101137074.
+
+## Reference
+
+If you use or extend our work, please cite the following:
+
+```
+@inproceedings{shami_etal-sigir2025,
+  author       = {Farzad Shami and
+                  Stefano Marchesin and
+                  Gianmaria Silvello},
+  title        = {Fact Verification in Knowledge Graphs Using LLMs},
+  booktitle    = {Proceedings of the 48th International {ACM} {SIGIR} Conference on Research and
+                  Development in Information Retrieval, {SIGIR} 2025, Padua, Italy, July 13-18, 2025},
+  pages        = {3985--3989},
+  publisher    = {{ACM}},
+  year         = {2025},
+  url          = {https://doi.org/10.1145/3726302.3730142},
+  doi          = {10.1145/3726302.3730142}
+}
+```
